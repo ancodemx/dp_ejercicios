@@ -59,4 +59,15 @@ if (isset($_GET['limpiar'])) {
 	?>
 
 </body>
+<script type="text/javascript">
+
+	let dataJson = null ;
+	 try {
+	    dataJson = JSON.parse(<?php echo json_encode($data_json); ?>);
+	} catch (d) {}
+
+	// Imprimir por consola
+	console.log(dataJson);
+
+</script>
 </html>
