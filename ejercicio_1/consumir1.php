@@ -2,6 +2,30 @@
 
 include('Consumir.php');
 
+error_reporting(0);
+
+$consumirApi = new ConsumirApi();
+
+$data_array = "";
+$data_json = "";
+if (isset($_GET['consumir'])) {
+
+	// Obtenemos URL
+	$consumirApi->asignarURL($_GET['url']);
+
+	// Obtenemos el objeto convertido a Array
+    $data_array = $consumirApi->jsonDecodeApi();
+
+    // Obtenemos el objeto convertido en Json
+    $data_json = $consumirApi->jsonApi();
+
+}
+
+if (isset($_GET['limpiar'])) {
+	header("Location: consumir1.php");
+	die();
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -17,6 +41,17 @@ include('Consumir.php');
 		<button type="submit" name="consumir">Consumir</button>
 		<button type="submit" name="limpiar">Limpiar</button>
 	</form>
+
+	<br>
+
+	<?php 
+
+	// Imprimimos en pantalla datos
+	echo('<pre>');
+	print_r($data_json);
+	echo('</pre>');
+
+	?>
 
 </body>
 </html>
