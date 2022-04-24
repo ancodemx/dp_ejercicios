@@ -25,15 +25,18 @@ class ConsumirApi {
 	}
 
 	public function extraerColor($data_array, $color) {
-
 		foreach ($data_array as $key => $value) {
 			if ( $value['color'] != $color) {
 				unset($data_array[$key]);
 			}
 		}
-
 		return $data_array;
+	}
 
+	public function crearArchivoJson($json) {
+		$archivo = fopen("Respuesta1.json", "w+");
+		fwrite($archivo, $json);
+		fclose($archivo);
 	}
 
 }

@@ -19,6 +19,9 @@ if (isset($_GET['consumir'])) {
     // Obtenemos el objeto convertido en Json
     $data_json = $consumirApi->jsonApi();
 
+	// Exportamos a archivo JSON
+    $consumirApi->crearArchivoJson($data_json);
+
 }
 
 if (isset($_GET['limpiar'])) {
