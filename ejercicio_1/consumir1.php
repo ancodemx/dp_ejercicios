@@ -46,9 +46,11 @@ if (isset($_GET['limpiar'])) {
 
 	<?php 
 
-	// Imprimimos en pantalla datos
+	$data_array = $consumirApi->extraerColor($data_array, 'green');
+
+	// Imprimimos en pantalla solo los green
 	echo('<pre>');
-	print_r($data_json);
+	print_r($data_array);
 	echo('</pre>');
 
 	?>

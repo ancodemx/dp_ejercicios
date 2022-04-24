@@ -24,6 +24,18 @@ class ConsumirApi {
 		return $json;
 	}
 
+	public function extraerColor($data_array, $color) {
+
+		foreach ($data_array as $key => $value) {
+			if ( $value['color'] != $color) {
+				unset($data_array[$key]);
+			}
+		}
+
+		return $data_array;
+
+	}
+
 }
 
 ?>
