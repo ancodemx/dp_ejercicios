@@ -21,12 +21,10 @@ namespace formulario_dp
 
             try {
                 MySqlConnection conexionBD = new MySqlConnection(cadenaConexion);
-
                 return conexionBD;
             }
             catch(MySqlException ex) {
                 Console.WriteLine("Error: " + ex.Message);
-
                 return null;
             }
         }

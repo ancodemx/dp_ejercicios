@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtId = new System.Windows.Forms.TextBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtApellidoPaterno = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtApellidoMaterno = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtCalle = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtNumero = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
             this.txtColonia = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtCalle = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtApellidoMaterno = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtApellidoPaterno = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnConsultar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
@@ -52,6 +52,7 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txtColonia);
+            this.groupBox1.Controls.Add(this.btnConsultar);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.txtNumero);
             this.groupBox1.Controls.Add(this.label6);
@@ -73,86 +74,21 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos distribuidor";
             // 
-            // label1
+            // txtColonia
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(21, 35);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(20, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ID";
+            this.txtColonia.Location = new System.Drawing.Point(150, 226);
+            this.txtColonia.Name = "txtColonia";
+            this.txtColonia.Size = new System.Drawing.Size(183, 22);
+            this.txtColonia.TabIndex = 13;
             // 
-            // txtId
+            // label7
             // 
-            this.txtId.Location = new System.Drawing.Point(149, 32);
-            this.txtId.Name = "txtId";
-            this.txtId.Size = new System.Drawing.Size(184, 22);
-            this.txtId.TabIndex = 1;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Location = new System.Drawing.Point(149, 60);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(184, 22);
-            this.txtNombre.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(21, 63);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 16);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Nombre";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // txtApellidoPaterno
-            // 
-            this.txtApellidoPaterno.Location = new System.Drawing.Point(149, 88);
-            this.txtApellidoPaterno.Name = "txtApellidoPaterno";
-            this.txtApellidoPaterno.Size = new System.Drawing.Size(184, 22);
-            this.txtApellidoPaterno.TabIndex = 5;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(21, 91);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(107, 16);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Apellido Paterno";
-            // 
-            // txtApellidoMaterno
-            // 
-            this.txtApellidoMaterno.Location = new System.Drawing.Point(149, 116);
-            this.txtApellidoMaterno.Name = "txtApellidoMaterno";
-            this.txtApellidoMaterno.Size = new System.Drawing.Size(184, 22);
-            this.txtApellidoMaterno.TabIndex = 7;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(21, 119);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 16);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Apellido Materno";
-            // 
-            // txtCalle
-            // 
-            this.txtCalle.Location = new System.Drawing.Point(150, 170);
-            this.txtCalle.Name = "txtCalle";
-            this.txtCalle.Size = new System.Drawing.Size(183, 22);
-            this.txtCalle.TabIndex = 9;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 173);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 16);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Calle";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(22, 229);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 16);
+            this.label7.TabIndex = 12;
+            this.label7.Text = "Colonia";
             // 
             // txtNumero
             // 
@@ -170,21 +106,85 @@
             this.label6.TabIndex = 10;
             this.label6.Text = "No.";
             // 
-            // txtColonia
+            // txtCalle
             // 
-            this.txtColonia.Location = new System.Drawing.Point(150, 226);
-            this.txtColonia.Name = "txtColonia";
-            this.txtColonia.Size = new System.Drawing.Size(183, 22);
-            this.txtColonia.TabIndex = 13;
+            this.txtCalle.Location = new System.Drawing.Point(150, 170);
+            this.txtCalle.Name = "txtCalle";
+            this.txtCalle.Size = new System.Drawing.Size(183, 22);
+            this.txtCalle.TabIndex = 9;
             // 
-            // label7
+            // label5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(22, 229);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(53, 16);
-            this.label7.TabIndex = 12;
-            this.label7.Text = "Colonia";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(22, 173);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(38, 16);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Calle";
+            // 
+            // txtApellidoMaterno
+            // 
+            this.txtApellidoMaterno.Location = new System.Drawing.Point(149, 116);
+            this.txtApellidoMaterno.Name = "txtApellidoMaterno";
+            this.txtApellidoMaterno.Size = new System.Drawing.Size(184, 22);
+            this.txtApellidoMaterno.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(21, 119);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(109, 16);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Apellido Materno";
+            // 
+            // txtApellidoPaterno
+            // 
+            this.txtApellidoPaterno.Location = new System.Drawing.Point(149, 88);
+            this.txtApellidoPaterno.Name = "txtApellidoPaterno";
+            this.txtApellidoPaterno.Size = new System.Drawing.Size(184, 22);
+            this.txtApellidoPaterno.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(21, 91);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(107, 16);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Apellido Paterno";
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(149, 60);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(184, 22);
+            this.txtNombre.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(21, 63);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(56, 16);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Nombre";
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(149, 32);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(96, 22);
+            this.txtId.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(21, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(20, 16);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "ID";
             // 
             // btnGuardar
             // 
@@ -194,15 +194,17 @@
             this.btnGuardar.TabIndex = 1;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = true;
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // btnConsultar
             // 
-            this.btnConsultar.Location = new System.Drawing.Point(203, 309);
+            this.btnConsultar.Location = new System.Drawing.Point(258, 31);
             this.btnConsultar.Name = "btnConsultar";
             this.btnConsultar.Size = new System.Drawing.Size(75, 23);
             this.btnConsultar.TabIndex = 2;
             this.btnConsultar.Text = "Consultar";
             this.btnConsultar.UseVisualStyleBackColor = true;
+            this.btnConsultar.Click += new System.EventHandler(this.btnConsultar_Click);
             // 
             // btnLimpiar
             // 
@@ -212,6 +214,7 @@
             this.btnLimpiar.TabIndex = 3;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
             // Form1
             // 
@@ -219,7 +222,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(483, 351);
             this.Controls.Add(this.btnLimpiar);
-            this.Controls.Add(this.btnConsultar);
             this.Controls.Add(this.btnGuardar);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
