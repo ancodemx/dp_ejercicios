@@ -86,6 +86,8 @@ namespace formulario_dp
                         txtNumero.Text = reader.GetString(5);
                         txtColonia.Text = reader.GetString(6);
                     }
+
+                    txtId.Focus();
                 }
                 else
                 {
