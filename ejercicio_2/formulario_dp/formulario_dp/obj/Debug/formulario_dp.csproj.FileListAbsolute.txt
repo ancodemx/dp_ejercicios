@@ -1,0 +1,11 @@
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\bin\Debug\formulario_dp.exe.config
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\bin\Debug\formulario_dp.exe
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\bin\Debug\formulario_dp.pdb
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\obj\Debug\formulario_dp.csproj.AssemblyReference.cache
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\obj\Debug\formulario_dp.csproj.SuggestedBindingRedirects.cache
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\obj\Debug\formulario_dp.Form1.resources
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\obj\Debug\formulario_dp.Properties.Resources.resources
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\obj\Debug\formulario_dp.csproj.GenerateResource.cache
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\obj\Debug\formulario_dp.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\obj\Debug\formulario_dp.exe
+C:\xampp\htdocs\dp_ejercicios\ejercicio_2\formulario_dp\formulario_dp\obj\Debug\formulario_dp.pdb
